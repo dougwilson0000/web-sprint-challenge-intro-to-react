@@ -17,6 +17,9 @@ const App = () => {
     .then((res) => {
     setChar(res.data);
     })
+    .catch((error) => {
+      console.log(error);
+    })
   }, [])
 
   
