@@ -79,6 +79,17 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+React JS responds to data changes on the DOM and renders components instantly for a great user experience. I learned in class how to set state, get state, and change state!
+
 1. Describe component state.
+
+Component state keeps track of types of data the user will change while interacting with your website or application. When that data changes React knows to render the DOM.
+
 1. Describe props.
+
+Props are used to pass data through different components to another. Usually an Object, this allows use to compartmentalize our application structure while still have access to data, especially state across each component.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+Side effects are anything that affects something outside of the scope of the function. You can use useEffect from React.
